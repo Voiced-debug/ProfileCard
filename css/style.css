@@ -15,9 +15,6 @@ body {
     background-image: url(../images/bg-pattern-bottom.svg), url(../images/bg-pattern-top.svg);
     background-position: left 50vw top 50vh, right 50vw bottom 50vh;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .wrapper {
@@ -127,4 +124,33 @@ p {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 1110px) {
+    .wrapper {
+        width: 35%;
+        height: 50%; 
+    }
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        width: 45%;
+        height: 50%; 
+    }
+}
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 60%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 375px) {
+    .wrapper {
+        width: 80%;
+        height: 50%;
+    }
 }
